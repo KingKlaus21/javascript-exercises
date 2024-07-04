@@ -1,4 +1,6 @@
-const getTheTitles = function() {
+const getTheTitles = function(selection) {
+
+    return selection.map(item => item.title);
 
 };
 
